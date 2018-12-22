@@ -36,7 +36,7 @@ function increaseRankBy(n) {
   }
 
   let children2 = secondList.children
-  start = 12
+  
 
   for ( let i = 0, l = children2.length; i < l; i++ ) {
     children2[ i ].innerHTML = parseInt(i + n + 1)
