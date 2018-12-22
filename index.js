@@ -25,7 +25,7 @@ function deepestChild() {
 }
 
 function increaseRankBy(n) {
-  const rankedLists = document.getElementById('app').querySelectorAll( '.ranked-list' )
+  const rankedLists = document.getElementById('app').querySelectorAll( 'ul.ranked-list li' )
   // const firstList = rankedLists[0]
   // const secondList = rankedLists[1]
 
@@ -41,5 +41,5 @@ function increaseRankBy(n) {
   // for ( let i = 0, l = children2.length; i < l; i++ ) {
   //   children2[ i ].innerHTML = parseInt(children2[ i ].innerHTML) + n;
   // }
-  console.log(rankedLists[1].children[1].innerHTML);
+  // console.log(rankedLists[1].children[1].innerHTML);
 }
