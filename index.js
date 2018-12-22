@@ -16,6 +16,6 @@ for (let i = 0; i < lis.length; i++) {
 
 function nestedTarget() {
 
-  let result =  document.getElementsByClassName('nested');
-  console.log(result)
+  return document.querySelector(div#nested);
+  
 }
