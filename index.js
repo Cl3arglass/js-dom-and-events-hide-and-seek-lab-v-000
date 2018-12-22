@@ -32,7 +32,7 @@ function increaseRankBy(n) {
   let children1 = firstList.children
 
   for ( let i = 0, l = children1.length; i < l; i++ ) {
-    children1[ i ].innerHTML = parseInt(children1[ i ].innerHTML) + n;
+    children1[ i ].innerHTML = parseInt(children1[ i ].innerHTML + n);
   }
 
   let children2 = secondList.children
