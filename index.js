@@ -15,6 +15,7 @@ for (let i = 0; i < lis.length; i++) {
 }
 
 function nestedTarget() {
-  console.log(nestedTarget())
-  return document.getElementsByClassName('nested');
+  
+  let result =  document.getElementsByClassName('nested');
+  console.log(result)
 }
