@@ -30,7 +30,7 @@ function increaseRankBy(n) {
   // const secondList = rankedLists[1]
 
   // let children1 = firstList.children
-  // 
+  //
   // for ( let i = 0, l = children1.length; i < l; i++ ) {
   //   children1[ i ].innerHTML = parseInt(children1[ i ].innerHTML) + n;
   // }
