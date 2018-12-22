@@ -21,5 +21,5 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  return  document.querySelectorAll('ul.ranked-list li')[-1];
+  return  document.querySelectorAll('div#grand-node div');
 }
