@@ -17,5 +17,5 @@ for (let i = 0; i < lis.length; i++) {
 function nestedTarget() {
 
   return document.querySelector(div#nested);
-  
+
 }
