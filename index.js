@@ -21,5 +21,5 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  return  document.querySelectorAll('div#grand-node div');
+  return  document.querySelectorAll('div#grand-node div')[3];
 }
