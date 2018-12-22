@@ -19,3 +19,7 @@ function nestedTarget() {
   return document.querySelector('div.target');
 
 }
+
+function deepestChild() {
+  return  docu.querySelectorAll('ul.ranked-list li')[-1];
+}
