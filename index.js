@@ -15,5 +15,5 @@ for (let i = 0; i < lis.length; i++) {
 }
 
 function nestedTarget() {
-  return document.getElementsByTagName('div')[0];
+  return document.getElementsByClassName('nested')[0];
 }
